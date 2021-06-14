@@ -1,0 +1,96 @@
+.menu{
+
+    display:flex;
+
+    justify-content: space-between;
+
+    background-color: #000000;
+
+    font-size: 20px;
+
+    padding: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 400;
+
+    color: #ffffff;
+
+}
+
+
+
+body{
+
+    background-color: #f7f2f2;
+
+    margin: 0px;
+
+}
+
+
+
+.bodytext{
+
+    color: white;
+
+    position: absolute;
+
+    top: 25%;
+
+    left: 17%;
+
+    right: 20%;
+
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.grid{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    padding: 30px;
+    
+}
+
+.grid img{
+
+    border: 2px solid #000000;
+
+    border-radius: 50px;
+
+}
+
+
+
+.origami{
+
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    width: 310px;
+
+    margin-bottom: 10px;
+
+    margin-right: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a:link{
+    color: #ffffff;
+}
+
+a:visited{
+    color: #ffffff;
+}
+
+.origami:hover{
+    transform: scale(1.03);
+}
